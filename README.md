@@ -1,6 +1,4 @@
-<a href="https://github.com/benweston">
-    <img src="./assets/banner.png" alt="Ben Weston — Cloud & Software Engineering" width="1100" height="150" loading="lazy" />
-</a>
+![Ben Weston — Cloud & Software Engineering](./assets/banner.jpg)
 
 # Sandbox - Infra
 
