@@ -1,8 +1,10 @@
+![Ben Weston — Cloud & Software Engineering](./assets/banner.png)
+
 # `./examples/`
 
 > Example implementations and patterns for `sandbox-infra`.  Designed to demonstrate how to consume modules in this repository and provide standalone references for common infrastructure setups.   
 
-### Prerequisites
+## Prerequisites
 
 Before running any example, ensure you have the following installed:   
 
@@ -10,7 +12,7 @@ Before running any example, ensure you have the following installed:
 - [Google Cloud SDK](https://docs.cloud.google.com/sdk/docs/install-sdk) (gcloud)   
 - Access to a Google Cloud Project with billing enabled   
 
-### General Usage
+## General Usage
 
 1.  **Navigate** to the specific example directory:
     ```bash
