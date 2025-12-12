@@ -7,8 +7,8 @@
 ### Contents
 
 - **Banners:** Header images used in READMEs (e.g., `banner.png`)   
-- **Diagrams:** Architecture diagrams generated from tools like Lucidchart.   
-- **Screenshots:** Reference images for example outputs or console setups.   
+- **Diagrams:** Architecture diagrams generated from tools like Lucidchart   
+- **Screenshots:** Reference images for example outputs or console setups   
 
 ### Referencing Images
 
