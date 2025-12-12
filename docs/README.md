@@ -1,3 +1,5 @@
+![Ben Weston — Cloud & Software Engineering](/assets/banner.png)
+
 # `./docs/`
 
 > Documentation hub for `sandbox-infra`. This directory will eventually contain detailed guides, architectural diagrams, and runbooks that supplement the technical code found in the root directory.  It is a work-in-progress.   

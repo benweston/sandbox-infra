@@ -1,3 +1,5 @@
+![Ben Weston — Cloud & Software Engineering](/assets/banner.png)
+
 # `./scripts`
 
 > Custom scripts used by Terraform to perform tasks that fall outside the capabilities of native Terraform providers.   
