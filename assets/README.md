@@ -1,6 +1,6 @@
 ![Ben Weston — Cloud & Software Engineering](banner.png)
 
-# `./assets`
+# `./assets/`
 
 > Static assets, images, diagrams, and logos used throughout the `sandbox-infra` repository documentation.   
 
