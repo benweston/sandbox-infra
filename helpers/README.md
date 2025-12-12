@@ -13,6 +13,8 @@ These scripts often interact directly with cloud resources via the CLI.
 - **Always check your active profile** (`gcloud config list --format=json | jq`) before running.   
 - **Read the script header** to understand if it performs destructive actions (e.g., resource cleanup).   
 
+---
+
 ## How to Run
 
 Ensure you are in the root of the repo or inside this directory. Most scripts act on the current working directory or require a target argument.   
