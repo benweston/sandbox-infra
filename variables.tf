@@ -14,7 +14,7 @@ variable "env" {
   type        = string
 }
 
-variable "sandbox_subnet_cidr" {
-  description = "The CIDR block for the sandbox subnet"
+variable "infra_sandbox_subnet_cidr" {
+  description = "The CIDR block for the Infra - Sandbox subnet"
   type        = string
 }

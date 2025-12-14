@@ -1,6 +1,6 @@
-resource "google_project" "sandbox_infra" {
-  name            = "Sandbox - Infra"
-  project_id      = "sandbox-infra-${random_integer.suffix.result}"
+resource "google_project" "infra_sandbox" {
+  name            = "Infra - Sandbox"
+  project_id      = "infra-sandbox-${random_integer.suffix.result}"
   billing_account = var.billing_account_id
   deletion_policy = "DELETE"
 }
@@ -19,6 +19,12 @@ resource "google_project_service" "enabled_apis" {
   ])
 
   service            = each.key
-  project            = google_project.sandbox_infra.project_id
+  project            = google_project.infra_sandbox.project_id
   disable_on_destroy = false
+}
+
+resource "time_sleep" "wait_for_apis" {
+  create_duration = "60s"
+
+  depends_on = [google_project_service.enabled_apis]
 }

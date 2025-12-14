@@ -10,6 +10,10 @@ terraform {
       source  = "hashicorp/random"
       version = "~> 3.6"
     }
+    time = {
+      source  = "hashicorp/time"
+      version = "~> 0.9"
+    }
   }
 }
 
@@ -19,6 +23,6 @@ provider "google" {
   default_labels = {
     env        = var.env
     managed_by = "terraform"
-    repo       = "sandbox-infra"
+    repo       = "infra-sandbox"
   }
 }
